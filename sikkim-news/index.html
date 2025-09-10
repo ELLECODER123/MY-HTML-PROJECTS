@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sikkim News</title>
+  </head>
+  <body>
+    <header>
+      <h1>Sikkim News</h1>
+      <p>Your trusted source for latest updates from Sikkim</p>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Politics</a></li>
+          <li><a href="#">Sport</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <article>
+      <h2>Top Stories</h2>
+      <h3>Sikkim Celebrates Pang Lhabsol Festival</h3>
+      <img
+        src="https://tse2.mm.bing.net/th/id/OIP.QsgUjNOt9FhNGO8lM79HHgHaEc?pid=Api&P=0&h=180"
+        alt="Pang Labsol Celebration"
+      />
+      <p>
+        The colorful festival of Pang Lhabsol was celebrated across Sikkim with
+        traditional dances and rituals...
+      </p>
+      <video
+        controls
+        width="640"
+        height="360"
+        poster="https://tse1.mm.bing.net/th/id/OIP.c7FI2xKSmALJ3H-RYf3kfQHaE7?pid=Api&P=0&h=180"
+      >
+        <source src="./Video/pang.mp4" type="video/mp4" />
+        your browser doesn't support the video tag.
+      </video>
+      <h3>North Sikkim Roads Reopened After Landslide</h3>
+      <p>
+        The Border Roads Organization successfully cleared landslide debris,
+        reopening the vital route...
+      </p>
+      <audio controls>
+        <source src="./Video/landslide.mp3" type="audio/mpeg" />
+        Your browser doesn't support the audio element.
+      </audio>
+      <h2>Weather Report</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>City</th>
+            <th colspan="2">Temperature (°C)</th>
+            <th>Condition</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Gangtok</td>
+            <td colspan="2">18</td>
+            <td>Cloudy</td>
+          </tr>
+          <tr>
+            <td>Mangan</td>
+            <td colspan="2">14</td>
+            <td>Rainy</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">Data Source: Sikkim Meteorological Dept.</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <h2>Subscribe to Our Newsletter</h2>
+      <form action="">
+        <fieldset>
+          <legend>Survey Form</legend>
+          <label for="name">Full Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+          /><br /><br />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+          /><br /><br />
+          <label for="city">City:</label>
+          <select name="city" id="city">
+            <option value="Gangtok">Gangtok</option>
+            <option value="Namchi">Namchi</option>
+            <option value="Mangan">Mangan</option>
+            <option value="Geyzing">Geyzing</option>
+          </select>
+          <label for="news-category">News Category:</label><br />
+          <input
+            type="checkbox"
+            name="news-category"
+            id="news-category"
+            value="Politics"
+          />Politics<br />
+          <input
+            type="checkbox"
+            name="news-category"
+            id="news-category"
+            value="Sports"
+          />Sports<br />
+          <input
+            type="checkbox"
+            name="news-category"
+            id="news-category"
+            value="Culture"
+          />Culture<br /><br />
+          <input type="submit" value="Subscribe" />
+        </fieldset>
+      </form>
+    </article>
+    <footer>
+      <p>
+        © 2025 Sikkim News | All Rights Reserved <br />
+        Follow us: <a href="#">Facebook</a>&nbsp;|&nbsp;<a href="#">Twitter</a
+        >&nbsp;|&nbsp;<a href="#">Instagram</a>
+      </p>
+    </footer>
+  </body>
+</html>
