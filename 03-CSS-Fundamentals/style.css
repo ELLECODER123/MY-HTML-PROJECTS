@@ -14,7 +14,12 @@ h1 {
   font-style: italic;
 }
 /* Decendent selector  */
-article header p {
+/* article header p {
+  font-style: italic;
+} */
+
+/* Id selectors  */
+#author {
   font-style: italic;
 }
 
@@ -42,6 +47,19 @@ li {
 }
 
 /* Decendent Selector  */
-footer p {
+/* footer p {
   font-size: 16px;
+} */
+
+#copyright {
+  font-size: 16px;
+}
+
+/* Class Selector  */
+
+.related-author {
+  font-weight: bold;
+}
+.related-list {
+  list-style: none;
 }
