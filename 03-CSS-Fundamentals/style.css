@@ -55,6 +55,12 @@ p {
   font-size: 22px;
   line-height: 1.5;
 }
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
 
 li {
   font-size: 20px;
