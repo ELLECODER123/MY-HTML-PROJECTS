@@ -66,6 +66,26 @@ li {
   font-size: 20px;
 }
 
+/* HyperLinks  */
+
+a {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+/* Hyperlinks  */
+a:active {
+  background-color: #000;
+  font-style: italic;
+}
+
 /* Decendent Selector  */
 /* footer p {
   font-size: 16px;
