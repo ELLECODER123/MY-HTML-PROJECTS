@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  color: #444;
+}
+nav {
+  font-weight: bold;
+  font-size: 50px;
+  background-color: #1098ad;
+  margin-bottom: 50px;
+}
+.header-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.about-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.skillstools-section {
+  text-align: center;
+}
